@@ -1,0 +1,29 @@
+Fake News Detector - Capstone 3 - Jonny Pearce
+Jonny Pearce
+Model results
+
+Model				Accuracy
+Passive Aggressivr		98.62%
+Random Forest			96.49%
+Logistic Regression		97.37%
+Linear SVM			98.5%
+Multinomial Naive Bayes		93.86%
+
+
+
+
+Classification_report for selected model (PassiveAggressive Classifier Version 7)
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       410
+           1       0.98      0.99      0.99       388
+
+    accuracy                           0.99       798
+   macro avg       0.99      0.99      0.99       798
+weighted avg       0.99      0.99      0.99       798
+
+Confusion matric for selected model (PassiveAggressive Classifier Version 7)
+
+[[404   5]
+ [  6 383]]
