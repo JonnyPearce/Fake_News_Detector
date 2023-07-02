@@ -3,55 +3,18 @@ Fake News Detector
 
 Using natural language processing to build a fake news detector
 
-Project Organization
-------------
+The reliability of information is key to businesses, governments and media organisations around the world. The rise of misinformation and fake news has a massive impact on business and government to effect change or develop appropriate responses/behavioural change within society, as well as sell products and provide services. With the rise of social media and online forums, and with customers becoming content generators, businesses have even more to contend with.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+They have to manage business and product/service reputation issues linked with fake news or misinformation, along with dealing with an increasing number and range of regulatory and compliance requirements covering legal and liability responsibilities to do with managing fake news, false information and abuse/offensive content/materials
+Thus, knowing what is true and what is fake in terms of protecting your own business (either as a publishing organisation or as a product producer or service provider) and enhancing your reputation and profile is crucial.
+So, reliable and effective tools that can help governments, businesses and media/publishing organisations manage fake news and false/misleading information will only become more and more important. This project set out to create a fake news detector to address such issues.
 
+The project carries out the following steps:
 
---------
+•	Data wrangling/cleaning/standardisation
+•	Exploratory data analysis.
+•	Vectorization of the text data (with consideration given to different text vectorization methods).
+•	Model training, building and testing, using a number of different machine learning classification algorithms.
+•	Model selection (including refinement and parameter tuning).
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Resulting in a PassiveAggressive Classifier Model with just under 99% accuracy.
